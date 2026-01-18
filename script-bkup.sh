@@ -3,7 +3,7 @@
 
 #define the variables
 buck_file="Data" #write the path of the dirctory that you want to backup it or write $1 if want the user write the path
-time=$(date +%F %T)
+time=$(date +"%Y-%m-%d_%H-%M-%S")
 targetpath=/home/ubuntu/buckup # you can change the path where you want
 file_name=bcukup-file-$time.tar.gz
 logfile=/home/ubuntu/buckup/filelogs.log #you can change log file where you want

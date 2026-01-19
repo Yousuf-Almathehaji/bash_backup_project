@@ -33,5 +33,5 @@ stores it locally, and uploads a copy to an AWS S3 bucket with logging and error
 .
 ├── script-bkup.sh
 ├── config.env
-├── 
-└── .gitignore
+├── crontab
+└── README.md
